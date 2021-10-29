@@ -1,0 +1,71 @@
+
+.pumpkin {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/e4/33/0de433a2-ee25-a411-9902-37951658ba1f/source/256x256bb.jpg);
+}
+
+.flame {
+    
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    }
+
+.responsive-columns {
+    column-count: 3;
+    padding: 5%;
+}
+.bye {
+    display:grid
+}
+
+.fit {
+    width: 100%;
+    object-fit: cover;
+}
+
+.constant-height-150 {
+    height: 150px;
+    object-fit: cover;
+}
+
+.constant-height-200 {
+    height: 200px;
+    object-fit: cover;
+}
+.edgar {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://media.poetryfoundation.org/uploads/media/default/0001/21/bd5c888c4689e6cd3583bbe7575a1a2cad3487f6.jpeg);
+    background-attachment: scroll;
+    background-size: 200%;
+    background-position: center;
+}
+.spacer-5 {
+    padding-top: 5%;
+}
+
+a {
+    color:white;
+    text-align: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+    .responsive-columns {
+        column-count: 1;
+    }
+    .bye {
+        display: none;
+    }
+  }
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .responsive-columns {
+        column-count: 2;
+    }
+  }
+@media only screen and (min-width: 769px) {
+    
+  }
+
